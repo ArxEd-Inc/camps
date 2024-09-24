@@ -14,7 +14,6 @@ body {
   text-align: center;
   font-size: 14vmin;
   font-weight: 600;
-  margin-top: 3%;
   text-transform: uppercase;
   letter-spacing: 5px;
   color: #DC9542;
@@ -27,9 +26,26 @@ body {
 }
 
 .container {
-  border: 1px solid red;
-  padding-left: clamp(15%, 15vmin, 15%);
-  padding-right: clamp(15%, 15vmin, 15%);
+  padding-left: clamp(5%, 5vmin, 15%);
+  padding-right: clamp(5%, 5vmin, 15%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 500px) {
+  .container {
+    padding-left: clamp(5%, 5vmin, 15%);
+    padding-right: clamp(5%, 5vmin, 15%);
+  }
+}
+@media only screen and (min-width: 501px) {
+  .container {
+    padding-left: clamp(15%, 15vmin, 15%);
+    padding-right: clamp(15%, 15vmin, 15%);
+  }
+}
+.main-image {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -37,18 +53,15 @@ body {
 
 @media only screen and (max-width: 500px) {
   .main-image {
-    border: 1px solid red;
-    width: 25vw;
+    width: 100%;
   }
 }
 @media only screen and (min-width: 501px) {
   .main-image {
-    border: 1px solid red;
-    width: 25%;
+    width: 35%;
   }
 }
 .main-image img {
-  border: 1px solid red;
   width: 100%;
 }
 
