@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700|Montserrat:900");
+html {
+  display: grid;
+  min-height: 100%;
+}
+
+body {
+  display: grid;
+  background: #27396A;
+}
+
+.main-title {
+  font-family: "Lato", sans-serif;
+  text-align: center;
+  font-size: 14vmin;
+  font-weight: 600;
+  margin-top: 3%;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: #DC9542;
+}
+
+.outer-container {
+  display: block;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  border: 1px solid red;
+  padding-left: clamp(15%, 15vmin, 15%);
+  padding-right: clamp(15%, 15vmin, 15%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 500px) {
+  .main-image {
+    border: 1px solid red;
+    width: 25vw;
+  }
+}
+@media only screen and (min-width: 501px) {
+  .main-image {
+    border: 1px solid red;
+    width: 25%;
+  }
+}
+.main-image img {
+  border: 1px solid red;
+  width: 100%;
+}
+
+h1 {
+  font-family: "Lato", sans-serif;
+  text-align: center;
+  margin-top: 2em;
+  font-size: 5vmin;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: #F6F4F3;
+}
+
+.sparc {
+  color: #f84c4c;
+}
+
+.secondary {
+  width: calc(75% - 40px);
+  font-family: "Lato", sans-serif;
+  text-align: center;
+  font-size: 3vmin;
+  letter-spacing: 5px;
+  color: #F6F4F3;
+  margin: 0 auto;
+}
+
+#timer {
+  margin-bottom: 0;
+  width: clamp(120px, 90vw, 2000px);
+  color: #F6F4F3;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Lato", sans-serif;
+  font-size: 0.7em;
+  letter-spacing: 5px;
+  margin-top: 3%;
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+
+.days, .hours, .minutes, .seconds {
+  display: inline-block;
+  padding: 20px;
+  margin-left: 2min;
+  margin-top: 2vmin;
+  width: clamp(25px, 25vw, 120px);
+  border-radius: 5px;
+}
+
+.primary {
+  font-family: "Montserrat", sans-serif;
+  width: calc(100% - 40px);
+  margin: 0 auto;
+  text-align: center;
+}
+
+.days {
+  background: #DC9542;
+}
+
+.hours {
+  background: #F6F4F3;
+  color: #27396A;
+}
+
+.minutes {
+  background: #276FBF;
+}
+
+.seconds {
+  background: #DC9542;
+}
+
+.numbers {
+  font-family: "Montserrat", sans-serif;
+  color: #27396A;
+  font-size: 4em;
+}/*# sourceMappingURL=styles.css.map */
