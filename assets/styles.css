@@ -17,6 +17,7 @@ body {
   text-transform: uppercase;
   letter-spacing: 5px;
   color: #DC9542;
+  margin-top: 5vmin;
 }
 
 .outer-container {
@@ -56,10 +57,16 @@ body {
   .main-image {
     width: 100%;
   }
+  .left {
+    padding-right: 4vmin;
+  }
+  .right {
+    padding-left: 4vmin;
+  }
 }
 @media only screen and (min-width: 501px) {
   .main-image {
-    width: 35%;
+    width: 30%;
   }
 }
 .main-image img {
