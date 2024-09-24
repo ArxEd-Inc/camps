@@ -4,7 +4,7 @@ ui <- fluidPage(
   HTML('
   <html>
 <head>
-    <title>ArxEd YETI</title>
+    <title>ArxEd SPARC</title>
     <link rel="shortcut icon" href="favicon.png" type="image/png">
     <style> 
       body{background-color:#27396A}

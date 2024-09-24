@@ -97,6 +97,16 @@ h1 {
   margin: 0 auto;
 }
 
+p {
+  width: calc(75% - 40px);
+  font-family: "Lato", sans-serif;
+  text-align: center;
+  font-size: 1.8vmin;
+  letter-spacing: 2px;
+  color: #F6F4F3;
+  margin: 0 auto;
+}
+
 #timer {
   margin-bottom: 0;
   width: clamp(120px, 90vw, 2000px);
