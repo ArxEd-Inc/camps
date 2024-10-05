@@ -228,5 +228,54 @@ p{
 @media (max-width: 768px) {
   .button-74 {
     margin-top: 5%;
+    min-width: 100px;
+    min-height: 30px;
+  }
+}
+
+
+/* CSS */
+.button-47{
+  align-items: center;
+  background: #FFFFFF;
+  border: 0 solid #E2E8F0;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  box-sizing: border-box;
+  color: #1A202C;
+  display: inline-flex;
+  font-family: Inter, sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  height: 56px;
+  justify-content: center;
+  line-height: 24px;
+  overflow-wrap: break-word;
+  padding: 24px;
+  text-decoration: none;
+  width: auto;
+  border-radius: 15px;
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+@media (min-width: 768px) {
+  .button-47 {
+    min-width: 100px;
+    min-height: 30px;
+    padding: 0 25px;
+    margin-top: 1%;
+  }
+}
+
+@media (max-width: 768px) {
+  .button-47 {
+    margin-top: 5%;
+    min-width: 80px;
+    max-width: 120px;
+    font-size: 12px;
+    min-height: 20px;
+    max-height: 40px;
   }
 }
