@@ -1,6 +1,9 @@
 library(shiny)
 
 ui <- fluidPage(
+  tags$head(
+    tags$link(rel="shortcut icon", href="https://raw.githubusercontent.com/ArxEd-Inc/logos/main/arxed%20logos/LITIX%20PNG/LITIX%20TM%20Secondary%20Logo%20-%20Transparent%20BG.png")
+  ),
   HTML('
   <html>
 <head>
