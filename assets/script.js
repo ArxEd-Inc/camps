@@ -1,5 +1,5 @@
 const year = new Date().getFullYear();
-const test = new Date(year, 9,8, 18).getTime();
+const test = new Date(year, 9,31, 18).getTime();
 const month = new Date().getMonth();
 
 console.log(test);
